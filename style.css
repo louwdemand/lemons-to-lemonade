@@ -1,0 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  max-width: 100vw;
+  box-sizing: border-box;
+  background-color: orange; /* to be removed after adding landing section */
+}
