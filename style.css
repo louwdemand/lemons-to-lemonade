@@ -218,3 +218,72 @@ nav .fa {
   z-index: 11;
   transition: 0.03s;
 }
+
+/* Addinng Landing Section Responsiveness */
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+  #orange-slice-2 {
+    width: 450px;
+  }
+
+  #title-one {
+    font-size: 72px;
+  }
+  #title-two {
+    font-size: 72px;
+  }
+}
+
+@media only screen and (min-width: 920px) and (max-width: 1100px) {
+  #orange-slice-1 {
+    width: 150px;
+    bottom: 34%;
+  }
+
+  #orange-slice-2 {
+    width: 250px;
+  }
+
+  #title-one {
+    font-size: 48px;
+  }
+  #title-two {
+    font-size: 48px;
+  }
+}
+
+@media (max-device-width: 920px) {
+  #orange-slice-1 {
+    display: none;
+  }
+
+  #orange-slice-2 {
+    display: none;
+  }
+
+  #title-one {
+    font-size: 40px;
+    margin-right: 2px;
+  }
+  #title-two {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  #orange-slice-1 {
+    display: none;
+  }
+
+  #orange-slice-2 {
+    display: none;
+  }
+
+  #title-one {
+    font-size: 24px;
+    margin-right: 2px;
+  }
+  #title-two {
+    font-size: 24px;
+  }
+}
