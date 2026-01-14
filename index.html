@@ -106,6 +106,19 @@
               }
             }
           }
+
+          //adding parallax effect to the hero section title
+          //learned this from Youtube Tutorial - by Online Tutorials - https://www.youtube.com/watch?v=1wfeqDyMUx4
+
+          let titleOne = document.getElementById("title-one");
+          let titleTwo = document.getElementById("title-two");
+
+          window.addEventListener("scroll", function () {
+            let value = window.scrollY;
+
+            titleOne.style.right = value * 0.5 + "px";
+            titleTwo.style.left = value * 0.5 + "px";
+          });
     </script>
   </body>
 </html>  <link
