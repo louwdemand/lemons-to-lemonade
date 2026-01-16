@@ -1,4 +1,4 @@
-# Creating a simple responsive landing webpage with the following sections
+# Creating a responsive landing webpage with the following sections
 
 1. Nav + Landing
 2. About Us
